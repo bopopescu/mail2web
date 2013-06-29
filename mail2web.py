@@ -6,7 +6,7 @@
 #           - Runs over the .forward file in the linux home directory
 #
 # Content of ~/.forward:
-# |"cd /home/demonslave/mail2web; FAKECHROOT_EXCLUDE_PATH=/usr/lib/python2.5 fakechroot ./watcher_report_output.sh 2>&1 >> watcher_report_output.log"
+# |"cd /home/username/mail2web; FAKECHROOT_EXCLUDE_PATH=/usr/lib/python2.5 fakechroot ./watcher_report_output.sh 2>&1 >> watcher_report_output.log"
 #      created: 2010-10-04
 #  last change: $LastChangedRevision$
 #
@@ -622,6 +622,8 @@ def main():
 
 
 # *** Call Main program
-__version__ = filter(str.isdigit, "$LastChangedRevision$")
+__version__ = ''.join(filter(str.isdigit, "$LastChangedRevision$"))
+if __version__ == "":
+   __version__ = "(development version)"
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
