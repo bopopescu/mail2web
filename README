@@ -73,7 +73,7 @@ Do not commit files after keyword expansion is done.
 License & Author
 ****************
 GNU General Public License, version 2
-Copyright (C) 2010 Robert Lange <sd2k9@sethdepot.org>
+Copyright (C) 2010 Robert Lange (https://sethdepot.org/site/RoLa.html)
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -86,7 +86,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Web Links
 *********
 Homepage
-	http://sethdepot.org/site/SethdepotServices#Mail2Web_Gateway
+	https://sethdepot.org/site/SethdepotServices.html#Mail2Web_Gateway
 
 Repository
 	https://github.com/sd2k9/mail2web
