@@ -496,7 +496,7 @@ def send_mail(command_id, command_raw, payload, rec):
     msg['From'] =  Opts['sender']
     msg['To'] = rec
     # Plain text as explanation
-    explanation = "This is the demon slave\n" + \
+    explanation = "This is the demon subordinate\n" + \
                    "I executed for you:\n" + command_raw + \
                    "\n\nHave fun!\n" + \
                    "To reach some admin, please mailto: admin@thishost\n" + \
